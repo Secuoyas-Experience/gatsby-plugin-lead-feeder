@@ -14,12 +14,6 @@ npm install gatsby-plugin-lead-feeder`
 yarn add gatsby-plugin-lead-feeder`
 ```
 
-Then in your `gatsby-config.js`:
-
-```bash
-plugins: [`gatsby-transformer-sharp`, `gatsby-plugin-sharp`]
-```
-
 ## How to use
 
 Add an entry for the plugin in `gatsby-image`:

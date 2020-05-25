@@ -1,0 +1,39 @@
+{
+    "name": "gatsby-plugin-lead-feeder",
+    "version": "0.0.2",
+    "description": "Inser Lead Feeder script into all pages of Gatsby site",
+    "author": "Francis Vega",
+    "main": "index.js",
+    "peerDependencies": {
+        "gatsby": "^2.21.37"
+    },
+    "dependencies": {
+        "gatsby": "^2.21.37",
+        "oneline": "^1.0.3",
+        "react": "^16.12.0",
+        "react-dom": "^16.12.0",
+        "react-helmet": "^6.0.0"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.8.4",
+        "@babel/core": "^7.4.5",
+        "@babel/runtime": "^7.4.5",
+        "babel-preset-gatsby-package": "^0.1.4",
+        "cross-env": "^5.1.0",
+        "prettier": "2.0.5",
+        "rollup-plugin-babel": "^4.4.0",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-json": "^4.0.0",
+        "rollup-plugin-terser": "^6.1.0"
+    },
+    "keywords": [
+        "gatsby",
+        "gatsby-plugin",
+        "leadfeeder",
+        "analytics"
+    ],
+    "license": "MIT",
+    "scripts": {
+        "build": "babel src --out-dir ."
+    }
+}

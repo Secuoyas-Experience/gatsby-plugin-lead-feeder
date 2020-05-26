@@ -1,19 +1,19 @@
-# Lead Feeder Plugin
+# Leadfeeder Plugin
 
-This plug in is intended for inserting the [Leadfeeder](https://www.leadfeeder.com/) Tracker in the `<header>` section of all the pages of your [Gatsby](https://www.gatsbyjs.org) website. 
+This plugin is intended for inserting the [Leadfeeder](https://www.leadfeeder.com/) Tracker in the `<header>` section of all the pages of your [Gatsby](https://www.gatsbyjs.org) website. 
 
 ## Install
 
 **With npm**
 
 ```bash
-npm install gatsby-plugin-lead-feeder`
+npm install gatsby-plugin-leadfeeder`
 ```
 
 **With yarn**
 
 ```bash
-yarn add gatsby-plugin-lead-feeder`
+yarn add gatsby-plugin-leadfeeder`
 ```
 
 ## How to use
@@ -24,9 +24,9 @@ Add an entry for the plugin in `gatsby-config.js`:
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-lead-feeder`,
+      resolve: `gatsby-plugin-leadfeeder`,
       options: {
-        key: "YOUR_LEAD_FEEDER_KEY",
+        key: "YOUR_LEADFEEDER_KEY",
       },
     },
   ],

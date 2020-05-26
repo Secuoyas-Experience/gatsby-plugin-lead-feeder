@@ -7,13 +7,13 @@ This plug in is intended for inserting the [Leadfeeder](https://www.leadfeeder.c
 **With npm**
 
 ```bash
-npm install gatsby-plugin-lead-feeder`
+npm install gatsby-plugin-leadfeeder`
 ```
 
 **With yarn**
 
 ```bash
-yarn add gatsby-plugin-lead-feeder`
+yarn add gatsby-plugin-leadfeeder`
 ```
 
 ## How to use
@@ -24,7 +24,7 @@ Add an entry for the plugin in `gatsby-config.js`:
 module.exports = {
   plugins: [
     {
-      resolve: `gatsby-plugin-lead-feeder`,
+      resolve: `gatsby-plugin-leadfeeder`,
       options: {
         key: "YOUR_LEAD_FEEDER_KEY",
       },

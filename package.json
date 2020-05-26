@@ -1,6 +1,6 @@
 {
     "name": "gatsby-plugin-leadfeeder",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Inser Lead Feeder script into all pages of Gatsby site",
     "author": "Francis Vega",
     "main": "index.js",

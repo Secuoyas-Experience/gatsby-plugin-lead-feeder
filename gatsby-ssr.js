@@ -9,7 +9,7 @@ var _react = _interopRequireDefault(require("react"));
 
 var _oneline = _interopRequireDefault(require("oneline"));
 
-var _jsxFileName = "/Users/hisco/repos/@sqy/gatsby-plugin-leed-feeder/src/gatsby-ssr.js";
+var _jsxFileName = "/Users/hisco/repos/@sqy/gatsby-plugin-lead-feeder/src/gatsby-ssr.js";
 
 const onRenderBody = ({
   setPostBodyComponents
